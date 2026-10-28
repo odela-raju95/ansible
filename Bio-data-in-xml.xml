@@ -1,0 +1,90 @@
+<!-- Basic Information -->
+<personalInformation>
+    <fullName>
+        <firstName>Raju</firstName>
+        <middleName></middleName>
+        <lastName>Odela</lastName>
+    </fullName>
+    <dateOfBirth>1995-07-27</dateOfBirth>
+    <gender>Male</gender>
+    <nationality>Indian</nationality>
+    <isEmployed>true</isEmployed>
+    <totalYearsExperience>10.5</totalYearsExperience>
+</personalInformation>
+
+<!-- Contact Details -->
+<contactInformation>
+    <email primary="true">odela.raju95@gmail.com</email>
+    <email primary="false">odela.raju255@gmail.com</email>
+    
+    <phoneNumbers>
+        <phone type="mobile" primary="true">+91-95xxxxxxxx</phone>
+        <phone type="home" primary="false">+91-76xxxxxxxxx</phone>
+    </phoneNumbers>
+    
+    <address type="Temporary">
+        <street>123 Knowledge Park, Hitech City</street>
+        <city>Hyderabad</city>
+        <state>Telangana</state>
+        <postalCode>500081</postalCode>
+        <country>India</country>
+    </address>
+</contactInformation>
+
+<!-- Social Links & Digital Handles -->
+<socialProfiles>
+    <profile network="LinkedIn">https://www.linkedin.com/in/raju-odela-885b7620b</profile>
+    <profile network="GitHub">https://github.com/odela-raju95</profile>
+</socialProfiles>
+
+
+<!-- Work Experience -->
+<workExperience>
+    <job role="Platform Engineer" current="true">
+        <designation>Senior Lead Software Engineer</designation>
+        <company>Virtusa consulting services</company>
+        <startDate>2021-11-08</startDate>
+        <endDate>Present</endDate>
+        <responsibilities>
+            <responsibility> Devsecops.</responsibility>
+            <responsibility>Leading a team of 2 engineers.</responsibility>
+            <responsibility>.</responsibility>
+        </responsibilities>
+    </job>
+    <job role ="Cloud Infra developer" current="false">
+        <designation> Associate Engineer </designation>
+        <company>Tata consultancy services</company>
+        <startDate>2016-07-04</startDate>
+        <endDate>2021-11-05</endDate>
+        <responsibilities>
+            <responsibility>Terraform developer and automation with CI/CD .</responsibility>
+            <responsibility>Windows system admin.</responsibility>
+        </responsibilities>
+    </job>
+</workExperience>
+
+<!-- 6. Key-Value Map: Technical & Soft Skills (Categorized)
+<skills>
+    <!-- Map entry by category -->
+    <skillCategory name="Programming Languages">
+        <skill level="Expert">Java</skill>
+        <skill level="Advanced">JavaScript / TypeScript</skill>
+        <skill level="Intermediate">Python</skill>
+    </skillCategory>
+    <skillCategory name="Web Technologies">
+        <skill level="Expert">XML / XSLT</skill>
+        <skill level="Advanced">HTML5 / CSS3</skill>
+        <skill level="Advanced">React</skill>
+    </skillCategory>
+    <skillCategory name="Databases">
+        <skill level="Advanced">PostgreSQL</skill>
+        <skill level="Intermediate">MongoDB</skill>
+    </skillCategory>
+</skills>
+
+<!-- 7. Simple Array: Languages Known -->
+<languagesKnown>
+    <language fluency="Native">English</language>
+    <language fluency="Fluent">Hindi</language>
+    <language fluency="Conversational">Telugu</language>
+</languagesKnown> -->
