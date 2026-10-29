@@ -1,5 +1,5 @@
 - name: "ping-playbook"
-  hosts: localhost #inventory/targets where the playbook needs to run
+  hosts: local #inventory/targets where the playbook needs to run
   connection: local #to connect to inverntory add the credentials here
   tasks:
     - name: "ping-local-machine"
