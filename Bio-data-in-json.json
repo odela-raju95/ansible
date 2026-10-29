@@ -1,0 +1,121 @@
+{
+  "personalInformation": {
+    "fullName": {
+      "firstName": "Raju",
+      "middleName": "",
+      "lastName": "Odela"
+    },
+    "dateOfBirth": "1995-07-27",
+    "gender": "Male",
+    "nationality": "Indian",
+    "isEmployed": true,
+    "totalYearsExperience": 10.5
+  },
+  "contactInformation": {
+    "emails": [
+      {
+        "address": "odela.raju95@gmail.com",
+        "primary": true
+      },
+      {
+        "address": "odela.raju255@gmail.com",
+        "primary": false
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "number": "+91-95xxxxxxxx",
+        "type": "mobile",
+        "primary": true
+      },
+      {
+        "number": "+91-76xxxxxxxxx",
+        "type": "home",
+        "primary": false
+      }
+    ],
+    "address": {
+      "type": "Temporary",
+      "street": "123 Knowledge Park, Hitech City",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "postalCode": "500081",
+      "country": "India"
+    }
+  },
+  "socialProfiles": [
+    {
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/raju-odela-885b7620b"
+    },
+    {
+      "network": "GitHub",
+      "url": "https://github.com/odela-raju95"
+    }
+  ],
+  "workExperience": [
+    {
+      "role": "Platform Engineer",
+      "current": true,
+      "designation": "Senior Lead Software Engineer",
+      "company": "Virtusa consulting services",
+      "startDate": "2021-11-08",
+      "endDate": "Present",
+      "responsibilities": [
+        "Design the microservice architecture over different clouds",
+        "Leading a team of 2 engineers."
+      ]
+    },
+    {
+      "role": "Cloud Infra developer",
+      "current": false,
+      "designation": "Associate Engineer",
+      "company": "Tata consultancy services",
+      "startDate": "2016-07-04",
+      "endDate": "2021-11-05",
+      "responsibilities": [
+        "Terraform developer and automation with CI/CD .",
+        "Windows system admin."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": [
+        { "name": "Java", "level": "Expert" },
+        { "name": "JavaScript / TypeScript", "level": "Advanced" },
+        { "name": "Python", "level": "Intermediate" }
+      ]
+    },
+    {
+      "category": "Web Technologies",
+      "items": [
+        { "name": "XML / XSLT", "level": "Expert" },
+        { "name": "HTML5 / CSS3", "level": "Advanced" },
+        { "name": "React", "level": "Advanced" }
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        { "name": "PostgreSQL", "level": "Advanced" },
+        { "name": "MongoDB", "level": "Intermediate" }
+      ]
+    }
+  ],
+  "languagesKnown": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Telugu",
+      "fluency": "Conversational"
+    }
+  ]
+}

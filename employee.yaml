@@ -1,0 +1,21 @@
+- firstname: "Raju"
+  Middlename: ""
+  Lastname: "Odela"
+  DOB: "1995-07-27"
+  gender: "male"
+  nationality: "indian"
+  Isemployed: "yes"
+  Totalyearsofexperience: 10.5
+  ContactInformation:
+    email:
+      - primary: true
+        address: "odela.raju95@gmail.com"
+      - primary: false
+        address: "odela.raju255@gmail.com"
+    Phone:
+      - type: mobile
+        primary: true
+        number: "+91-95xxxxxxxx"
+      - type: home
+        primary: false
+        number: "+91-76xxxxxxxx"
