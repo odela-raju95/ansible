@@ -1,8 +1,7 @@
 - name: "install packages"
-  hosts: local
-  connection: local
+  hosts: frontend
   tasks:
     - name: "install nginx"
-      ansible.builtin.dnf:
+      ansible.builtin.package:
         name: "nginx"
         state: "latest"
