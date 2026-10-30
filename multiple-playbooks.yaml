@@ -1,6 +1,7 @@
 - name: "directory and file creation"
   hosts: local
   connection: local
+  become: true
   tasks:
     - name: "creating a directory"
       ansible.builtin.file:
@@ -9,6 +10,6 @@
         mode: '0755'
     - name: "creating a file"
       ansible.builtin.file:
-        path: /odea_raju/foo.conf
+        path: /odela_raju/foo.conf
         state: touch
         mode: u=rw,g=r,o=r
