@@ -14,17 +14,17 @@
         state: touch
         mode: u=rw,g=r,o=r
 
-- name: "create and delete the old file"
-  hosts: local
-  connection: local
-  become: true
-  tasks: 
-    - name: "delete the file"
-      ansible.builtin.file:
-        path: /odela_raju/foo.conf
-        state: absent
-    - name: "create a new file"
-      ansible.builtin.file:
-        path: /odela_raju/second-file.conf
-        state: touch
-        mode: u=rw,g=r,o=r
+# - name: "create and delete the old file"
+#   hosts: local
+#   connection: local
+#   become: true
+#   tasks: 
+#     - name: "delete the file"
+#       ansible.builtin.file:
+#         path: /odela_raju/foo.conf
+#         state: absent
+#     - name: "create a new file"
+#       ansible.builtin.file:
+#         path: /odela_raju/second-file.conf
+#         state: touch
+#         mode: u=rw,g=r,o=r
