@@ -1,8 +1,14 @@
-- name: "install packages"
+- name: "directory and file creation"
   hosts: local
   connection: local
   tasks:
-    - name: "install nginx"
-      ansible.builtin.dnf:
-        name: "nginx"
-        state: "latest"
+    - name: "creating a directory"
+      ansible.builtin.file:
+        path: /odela_raju
+        state: directory
+        mode: '0755'
+    - name: "creating a file"
+      ansible.builtin.file:
+        path: /odea_raju/foo.conf
+        state: touch
+        mode: u=rw,g=r,o=r
