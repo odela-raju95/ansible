@@ -1,0 +1,10 @@
+- name: defining variables
+  hosts: local
+  connection: local
+  vars:
+    course: devops
+    trainer: siva
+  tasks:
+    - name: printing vars defined on same file
+      debug:
+        msg: I am learning {{course}} by {{trainer}}

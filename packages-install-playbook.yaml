@@ -14,7 +14,3 @@
       ansible.builtin.service:
         name: "nginx"
         state: started
-    - name: "start ansible"
-      ansible.builtin.service:
-        name: "ansible"
-        state: started
