@@ -8,3 +8,8 @@
     - name: printing vars defined on same file
       debug:
         msg: I am learning {{course}} by {{trainer}}
+    - name: priniting vars defined at local
+      vars:
+        trainer: ramesh
+      debug:
+        msg:  I am learning {{course}} by {{trainer}}
