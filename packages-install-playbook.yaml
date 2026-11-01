@@ -2,6 +2,10 @@
   hosts: frontend
   become: true
   tasks:
+    - name: "install nginx"
+      ansible.builtin.package:
+        name: "nginx"
+        state: "latest"
     - name: "install ansible on remote machine"
       ansible.builtin.package:
         name: "ansible"
