@@ -1,0 +1,7 @@
+- name: vars from cmd level
+  hosts: local
+  connection: local
+  tasks:
+  - name: defining vars from cmd
+    debug:
+      msg: HI. I am learning {{course}}
