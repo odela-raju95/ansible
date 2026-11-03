@@ -1,6 +1,7 @@
 - name: conditions
   hosts: local
   connection: local
+  become: true
   tasks:
     - name: Install nginx when os is redhat
       dnf:
