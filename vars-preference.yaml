@@ -7,7 +7,7 @@
     private: false
   vars_files:
   - config.yaml
-  variables:
+  vars:
     course: devops-in-file-variables
   tasks:
   - name: understanding vars prefernce
