@@ -1,0 +1,6 @@
+- name: defining vars from the inventory file
+  hosts: frontend
+  tasks:
+  - name: "calling vars from the inventory"
+    debug:
+      msg: "HI, I am learning {{course}} by {{trainer}}"
