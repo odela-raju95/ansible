@@ -5,12 +5,12 @@
   - name: enter the course name from the prompt
     prompt: course
     private: false
-  vars_file:
+  vars_files:
   - config.yaml
   variables:
     course: devops-in-file-variables
   tasks:
-  - name: defining vars from cmd
+  - name: understanding vars prefernce
     vars:
       course: devops from the task
     debug:
