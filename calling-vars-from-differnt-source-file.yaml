@@ -4,11 +4,11 @@
   vars_files:
   - config.yaml
   tasks:
-    - name: printing vars defined on same file
+    - name: "printing vars defined on same file"
       debug:
-        msg: I am learning {{course}} by {{trainer}}
-    - name: priniting vars defined at local
+        msg: "I am learning {{course}} by {{trainer}}"
+    - name: "priniting vars defined at local"
       vars:
-        trainer: sudesh
+        trainer: "sudesh"
       debug:
-        msg:  I am learning {{course}} by {{trainer}}
+        msg:  "I am learning {{course}} by {{trainer}}"
