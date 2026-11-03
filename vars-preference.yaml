@@ -1,0 +1,24 @@
+- name: vars from cmd level
+  hosts: local
+  connection: local
+  vars_prompt:
+  - name: enter the course name from the prompt
+    prompt: course
+    private: false
+  vars_file:
+  - config.yaml
+  variables:
+    course: devops-in-file-variables
+  tasks:
+  - name: defining vars from cmd
+    vars:
+      course: devops from the task
+    debug:
+      msg: HI. I am learning {{course}}
+
+  # cmd
+  # inventory
+  # in-file
+  # from the external file
+  # from the prompt
+  # from the tasks level
