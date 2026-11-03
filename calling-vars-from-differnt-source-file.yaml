@@ -1,0 +1,14 @@
+- name: defining variables
+  hosts: local
+  connection: local
+  vars_files:
+  - config.yaml
+  tasks:
+    - name: printing vars defined on same file
+      debug:
+        msg: I am learning {{course}} by {{trainer}}
+    - name: priniting vars defined at local
+      vars:
+        trainer: sudesh
+      debug:
+        msg:  I am learning {{course}} by {{trainer}}
