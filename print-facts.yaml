@@ -4,7 +4,7 @@
   tasks:
   - name: facts list
     debug:
-      msg: {{ ansible_facts }}
+      msg: "{{ ansible_facts }}"
   - name: specific facts list
     debug:
       msg: |
