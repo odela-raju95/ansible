@@ -1,0 +1,14 @@
+- name: conditions
+  hosts: local
+  connection: local
+  tasks:
+    - name: Install nginx when os is redhat
+      dnf:
+        name: nginx
+        state: latest
+      when: ansible_facts.os_family == "Redhat"
+    - name: Install nginx in debian
+      apt:
+        name: nginx
+        state: latest
+      when: ansible_facts.os_family == "Debian"
