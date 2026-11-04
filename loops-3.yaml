@@ -1,0 +1,15 @@
+- name: update packages using loops
+  hosts: local
+  connection: local
+  become: true
+  vars:
+    packages:
+      - { name: 'nginx',state: 'absent' } 
+      - { name: 'mysql',state: 'present' }
+      - { name: 'ansible',state: 'absent' }
+  tasks:
+    - name: install software
+      package:
+        name: "{{ item.name }}"  # item is reserved keyword
+        state: "{{ item.state }}"
+      loop: "{{ packages }}"
