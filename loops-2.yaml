@@ -1,0 +1,13 @@
+- name: installing packages using loops
+  hosts: local
+  connection: local
+  vars:
+    packages:
+      - nginx
+      - mysql
+      - ansible
+  tasks:
+    - name: install packages
+      debug:
+        msg: Installing the package {{ item }}  # item is reserved keyword
+      loop: "{{ packages }}"
