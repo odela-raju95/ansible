@@ -8,6 +8,7 @@
       - ansible
   tasks:
     - name: install packages
-      debug:
-        msg: Installing the package {{ item }}  # item is reserved keyword
+      packages:
+        name: "{{ item }}"  # item is reserved keyword
+        state: latest
       loop: "{{ packages }}"
