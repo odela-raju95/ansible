@@ -7,8 +7,8 @@
       - mysql
       - ansible
   tasks:
-    - name: install packages
-      packages:
+    - name: install software
+      package:
         name: "{{ item }}"  # item is reserved keyword
         state: latest
       loop: "{{ packages }}"
